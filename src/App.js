@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-import logo from './logo.svg';
 import './App.css';
-import MainLogo from '../src/assets/LOGO.svg'
 import NameLogo from '../src/assets/name-logo.svg'
 import LargeLogo from '../src/assets/large-logo.svg'
 import LockIcon from '../src/assets/lock.svg'
@@ -20,7 +18,7 @@ function App() {
         <nav className="navbar navbar-container" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="logo-container ml-6" >
-              <img src={NameLogo} width="256" height="48" />
+              <img src={NameLogo} width="256" height="48" alt="logo" />
             </a>
           </div>
 
@@ -84,7 +82,7 @@ function App() {
                   <div className="column">
                     <div className="cards-container">
                       <div>
-                        <img src={LockIcon} />
+                        <img src={LockIcon} alt="logo" />
                       </div>
                       <div className="card-title mt-2">
                         Secure credentials management
@@ -97,7 +95,7 @@ function App() {
                   <div className="column">
                     <div className="cards-container">
                       <div>
-                        <img src={DocIcon} />
+                        <img src={DocIcon} alt="logo" />
                       </div>
                       <div className="card-title mt-2">
                         Effortless recording
@@ -109,7 +107,7 @@ function App() {
                   <div className="column">
                     <div className="cards-container">
                       <div>
-                        <img src={UserIcon} />
+                        <img src={UserIcon} alt="logo" />
                       </div>
                       <div className="card-title mt-2">
                         Collaboration made easy
@@ -151,7 +149,7 @@ function App() {
           <div className="container">
             <div className="columns is-centered">
               <div className="column">
-                <img src={LargeLogo} />
+                <img src={LargeLogo} alt="logo" />
               </div>
               <div className="column">
                 <div className="is-flex is-justify-content-flex-end">

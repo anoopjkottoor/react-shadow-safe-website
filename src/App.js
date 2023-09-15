@@ -17,7 +17,7 @@ function App() {
       <section className="hero is-fullheight first-section">
         <nav className="navbar navbar-container" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <a className="logo-container ml-6" >
+            <a className="logo-container ml-6" href="/#">
               <img src={NameLogo} width="256" height="48" alt="logo" />
             </a>
           </div>
@@ -25,15 +25,15 @@ function App() {
           <div className="navbar-menu navbar-style">
 
             <div className="navbar-end">
-              <a className="navbar-item-new">
+              <a className="navbar-item-new" href="/#">
                 Product
               </a>
 
-              <a className="navbar-item-new">
+              <a className="navbar-item-new" href="/#">
                 Our mission
               </a>
 
-              <a className="navbar-item-new">
+              <a className="navbar-item-new" href="/#">
                 Contact
               </a>
 

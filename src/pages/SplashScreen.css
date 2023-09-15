@@ -1,0 +1,73 @@
+.splash-screen-container {
+    background-image: url('../src/assets/splash-background.svg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center-title {
+    height: 400px;
+}
+
+.main-title-slim-splash {
+    color: var(--text-fill-on-filled-on, #E4E6ED);
+    font-family: Helvetica Neue;
+    font-size: 124px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140.8px;
+    /* 113.548% */
+    letter-spacing: -4.96px;
+}
+
+.main-title-thick-splash {
+    color: var(--text-fill-on-filled-on, #E4E6ED);
+    font-family: Helvetica Neue;
+    font-size: 124px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.8px;
+    letter-spacing: -4.96px;
+}
+
+/* Define the initial state of the div */
+.animated-div {
+    width: 0;
+    /* Start with zero width */
+    height: 0;
+    /* Start with zero height */
+    opacity: 0;
+    /* Start with zero opacity (hidden) */
+    transform-origin: center;
+    /* Set the transform origin to the center */
+}
+
+/* Define the keyframes for the animation */
+@keyframes growFromBehind {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 1;
+        /* Fade in during the first half of the animation */
+    }
+
+    100% {
+        width: 800px;
+        /* Set the final width to your desired size */
+        height: 400px;
+        /* Set the final height to your desired size */
+        transform: scale(1);
+    }
+}
+
+/* Apply the animation to the div */
+.animated-div {
+    animation: growFromBehind 5s ease-in;
+    /* Customize the animation duration and timing function */
+}

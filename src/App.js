@@ -52,7 +52,7 @@ function App() {
                   Safeguard your credentials, simplify your workflow.
                 </h1>
                 <div className="">
-                  <div className="custom-button" href="https://demo.shadowsafe.xyz">See Demo</div>
+                  <a className="custom-button" href="https://demo.shadowsafe.xyz" target="_blank">See Demo</a>
                 </div>
               </div>
 
@@ -135,7 +135,7 @@ function App() {
                 <h1 className="titled is-1 mt-6">
                   Designed with developers, software testers, and DevOps in mind.
                 </h1>
-                <div data-aos="fade-down" className="custom-button-1" href="https://getwaitlist.com/waitlist/10173">Get an invite</div>
+                <a data-aos="fade-down" className="custom-button-1" href="https://getwaitlist.com/waitlist/10173" target="_blank">Get an invite</a>
               </div>
             </div>
           </div>

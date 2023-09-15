@@ -52,14 +52,14 @@ function App() {
                   Safeguard your credentials, simplify your workflow.
                 </h1>
                 <div className="">
-
-                  <button className="custom-button" href="https://demo.shadowsafe.xyz">See Demo</button>
+                  <div className="custom-button" href="https://demo.shadowsafe.xyz">See Demo</div>
                 </div>
               </div>
 
             </div>
           </div>
         </div>
+
       </section>
 
       <section className="hero is-fullheight main-container">
@@ -67,8 +67,7 @@ function App() {
           <div className="container">
             <div className="columns">
 
-              <div data-aos="fade-down" className="column is-two-thirds
-          ">
+              <div data-aos="fade-down" className="column is-two-thirds">
                 <h2 className="title-3">
                   Effortlessly capture and manage user credentials, transform testing and debugging into efficient and enjoyable tasks.
                 </h2>
@@ -136,9 +135,8 @@ function App() {
                 <h1 className="titled is-1 mt-6">
                   Designed with developers, software testers, and DevOps in mind.
                 </h1>
-
+                <div data-aos="fade-down" className="custom-button-1" href="https://getwaitlist.com/waitlist/10173">Get an invite</div>
               </div>
-
             </div>
           </div>
         </div>
@@ -163,22 +161,6 @@ function App() {
           </div>
         </div>
       </section>
-
-
-      {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
-  <script>
-    new Typewriter('#typewriter', {
-      strings: ['typewriter', 'Effect', 'typewriter.js', 'example'],
-      autoStart: true,
-      loop: true,
-    });
-  </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      once: true
-    });
-  </script> */}
     </div>
   );
 }

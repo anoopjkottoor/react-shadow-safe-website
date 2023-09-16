@@ -25,17 +25,6 @@ function App() {
           <div className="navbar-menu navbar-style">
 
             <div className="navbar-end">
-              <a className="navbar-item-new" href="/#">
-                Product
-              </a>
-
-              <a className="navbar-item-new" href="/#">
-                Our mission
-              </a>
-
-              <a className="navbar-item-new" href="/#">
-                Contact
-              </a>
 
               <a className="custom-button" href="https://demo.shadowsafe.xyz" target="_blank" rel="noopener">
                 See Demo
@@ -62,7 +51,7 @@ function App() {
 
       </section>
 
-      <section className="hero is-fullheight main-container">
+      <section className="hero first-section is-fullheight">
         <div className="hero-body">
           <div className="container">
             <div className="columns">
@@ -151,9 +140,6 @@ function App() {
               </div>
               <div className="column">
                 <div className="is-flex is-justify-content-flex-end">
-                  <div className="privacy-policy">
-                    As we gear up to enhance access controls, we're all ears. Share your insights, and we'll probably incorporate them in our next version.
-                  </div>
                 </div>
               </div>
             </div>

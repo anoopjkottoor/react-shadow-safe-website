@@ -38,8 +38,9 @@ function App() {
             <div className="columns is-vcentered reverse-columns">
               <div className="column is-two-thirds" data-aos="fade-down">
                 <h1 className="titled mb-6">
-                  Safeguard your credentials, simplify your workflow.
+                  Helping teams manage shared credentials.
                 </h1>
+                <h1 className="title-3 mb-6">Safeguard your credentials, simplify your workflow.</h1>
                 <div className="">
                   <a data-aos="fade-down" className="custom-button" href="https://getwaitlist.com/waitlist/10173" target="_blank" rel="noopener">Get an invite</a>
                 </div>
@@ -117,11 +118,11 @@ function App() {
           <div className="container">
             <div className="columns  is-vcentered reverse-columns">
               <div data-aos="fade-right" className="column is-two-thirds">
-                <h2 className="title-4">
+                {/* <h2 className="title-4">
                   To provide an impenetrable,
                   on-premise solution that centralizes and secures every credential.
-                </h2>
-                <h1 className="titled is-1 mt-6">
+                </h2> */}
+                <h1 className="titled is-1 to-bottom-margin">
                   Designed with developers, software testers, and DevOps in mind.
                 </h1>
                 <a data-aos="fade-down" className="custom-button-1" href="https://getwaitlist.com/waitlist/10173" target="_blank" rel="noopener">Get an invite</a>
@@ -134,12 +135,15 @@ function App() {
       <section className="hero is-medium has-text-centered final-section">
         <div className="hero-body">
           <div className="container">
-            <div className="columns is-centered">
+            <div className="columns">
               <div className="column">
                 <img src={LargeLogo} alt="logo" />
               </div>
               <div className="column">
                 <div className="is-flex is-justify-content-flex-end">
+                  <div className="title-3 has-text-left ml-6">
+                    As we gear up to enhance access controls, we're all ears.
+                  </div>
                 </div>
               </div>
             </div>
